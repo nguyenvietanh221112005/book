@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/LoginRegister.css";
 
-const BASE_URL = "http://localhost:2211/api";
+const BASE_URL = "https://backend-1-2qmf.onrender.com/";
 
 function LoginRegister({ onClose, isRegister, onLoginSuccess }) {
   const [formData, setFormData] = useState({
