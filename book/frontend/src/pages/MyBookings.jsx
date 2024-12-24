@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../pages/Navbar';
 import '../styles/MyBookings.css';
 
-const BASE_URL = "http://localhost:2211/api";
+const BASE_URL = "https://backend-1-2qmf.onrender.com/";
 
 function MyBookings() {
   const [bookings, setBookings] = useState([]);
