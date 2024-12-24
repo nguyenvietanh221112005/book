@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import "../styles/Booking.css";
 
-const BASE_URL = "http://localhost:2211/api";
+const BASE_URL = "https://backend-1-2qmf.onrender.com/";
 
 function Booking() {
   const navigate = useNavigate();
